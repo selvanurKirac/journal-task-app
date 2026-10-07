@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# === FIREBASE VE GİZLİLİK EKLEMELERİ ===
+
+# Kök dizindeki firebase klasörünün altındaki config dosyası
+firebase/config.js
+
+# src altındaki config klasörünün tamamı veya sadece içindeki firebase.js
+src/config/firebase.js
+
+# Firebase CLI'ın oluşturduğu yerel önbellek ve geçici dosyalar
+.firebase/
+*.cache

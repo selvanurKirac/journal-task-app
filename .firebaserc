@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "selvacalendar38",
+    "firebase deploy --only hosting": "selvacalendar38"
+  },
+  "targets": {},
+  "etags": {}
+}
