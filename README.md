@@ -1,12 +1,31 @@
-# React + Vite
+# 📔 Günlük & Görev Yöneticim
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React ve Firebase ile geliştirilmiş, kullanıcıya özel bir günlük ve görev takip uygulaması. Kullanıcılar güvenli bir şekilde hesap oluşturup giriş yapabilir, her gün için günlük yazabilir, görevlerini yönetebilir, o günkü ruh halini ve hava durumunu kaydedebilir.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **🔒 Kimlik Doğrulama:**
+  - E-posta/şifre ile kayıt olma ve giriş yapma
+  - Google ile hızlı giriş seçeneği
+  - Güvenli çıkış yapma (Sign Out)
+- **📝 Günlük:**
+  - Her gün için ayrı ve bağımsız kayıt tutma
+  - Takvim/tarih seçici ile geçmiş kayıtlara kolay erişim
+- **✅ Görev Yönetimi (To-Do):**
+  - Günlük görev ekleme, tamamlama ve silme
+  - Günlük ilerleme durumunu gösteren dinamik ilerleme çubuğu (Progress Bar)
+- **🎭 Ruh Hali & Hava Durumu:**
+  - Her günün modunu ve hava durumunu kaydetme seçeneği
 
-## Expanding the ESLint configuration
+## 🛠️ Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, React Router (`react-router-dom`)
+- **Tasarım:** Bootstrap 5, Bootstrap Icons
+- **Backend & Veritabanı:** 
+  - Firebase Authentication (Kullanıcı Yönetimi)
+  - Cloud Firestore (NoSQL Veritabanı)
+- **Barındırma:** Firebase Hosting
+
+
+
+
